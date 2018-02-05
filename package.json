@@ -1,0 +1,17 @@
+{
+  "name": "axf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mock": "node mock.js",
+    "db": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.12.1",
+    "mockjs": "^1.0.1-beta3"
+  }
+}
